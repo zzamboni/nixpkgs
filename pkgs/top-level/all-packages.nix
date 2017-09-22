@@ -565,6 +565,8 @@ with pkgs;
 
   elvish = callPackage ../shells/elvish { };
 
+  cfengine = callPackage ../tools/system/cfengine { };
+
   encryptr = callPackage ../tools/security/encryptr {
     gconf = gnome2.GConf;
  };
